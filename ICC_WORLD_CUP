@@ -1,2 +1,54 @@
 Given input Table 
 
+-- First we will create table icc_world_cup
+
+CREATE TABLE icc_world_cup
+(
+    Team_1 varchar(20),
+    Team_2 varchar(20),
+    Winner varchar(20)
+);
+
+-- Inserting values into the table.
+
+INSERT INTO icc_world_cup values('India','SL','India');
+INSERT INTO icc_world_cup values('SL','Aus','Aus');
+INSERT INTO icc_world_cup values('SA','Eng','Eng');
+INSERT INTO icc_world_cup values('Eng','NZ','NZ');
+INSERT INTO icc_world_cup values('Aus','India','India');
+
+-- We will check whether team_name and winner names are matching.
+
+SELECT Team_1, CASE WHEN Team_1 = Winner
+THEN 1 ELSE 0 END AS win_flag
+FROM icc_world_cup;
+
+-- Similarly for Team_2 we will check
+
+SELECT Team_2, CASE WHEN Team_2 = Winner
+THEN 1 ELSE 0 END AS win_flag
+FROM icc_world_cup;
+
+-- Combine both queries with UNION ALL
+
+SELECT Team_1, CASE WHEN Team_1 = Winner
+THEN 1 ELSE 0 END AS win_flag
+FROM icc_world_cup
+UNION ALL
+SELECT Team_2, CASE WHEN Team_2 = Winner
+THEN 1 ELSE 0 END AS win_flag
+FROM icc_world_cup;
+
+-- We will use subquery and combine both queries
+
+SELECT team_name, COUNT(1) AS no_of_matches_played, SUM(win_flag) AS no_of_wins, COUNT(1) - SUM(win_flag) AS no_of_loses
+FROM(
+SELECT Team_1 AS team_name, CASE WHEN Team_1 = Winner
+THEN 1 ELSE 0 END AS win_flag
+FROM icc_world_cup
+UNION ALL
+SELECT Team_2 AS team_name, CASE WHEN Team_2 = Winner
+THEN 1 ELSE 0 END AS win_flag
+FROM icc_world_cup) AS A
+GROUP BY team_name
+ORDER BY no_of_matches_won DESC;
