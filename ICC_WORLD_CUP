@@ -52,3 +52,30 @@ THEN 1 ELSE 0 END AS win_flag
 FROM icc_world_cup) AS A
 GROUP BY team_name
 ORDER BY no_of_matches_won DESC;
+
+-- Trying something
+
+SELECT team_name, COUNT(1) AS no_of_matches_played,
+SUM(win_flag) AS no_of_matches_won,
+COUNT(1) - SUM(win_flag) AS no_of)loses,
+COUNT(1) - SUM(win_flag) - SUM(draw_flag) AS no_of_matches_drawn
+FROM(
+SELECT Team_1 AS team_name, CASE WHEN Team_1 = Winner
+THEN 1 ELSE 0 END AS win_flag
+FROM icc_world_cup
+UNION ALL
+SELECT Team_2 AS team_name, CASE WHEN Team_2 = Winner
+THEN 1 ELSE 0 END AS win_flag
+FROM icc_world_cup
+UNION ALL
+SELECT Team_1, Team_2 AS team_name, CASE
+WHEN Team_1 = Winner THEN 1 
+WHEN Winner = 'Draw' THEN 1 
+ELSE 0 END AS draw_flag AND
+WHEN Team_2 = Winner THEN 1
+WHEN Winner = 'Draw'
+ELSE 0 END AS draw_flag
+FROM icc_world_cup
+) AS A
+GROUP BY team_name
+ORDER BY no_of_matches_won;
