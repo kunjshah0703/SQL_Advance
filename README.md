@@ -9,3 +9,5 @@ Expected output : ![image](https://user-images.githubusercontent.com/72154374/21
 Question 2 : Find new and repeated customers.
 
 Given input table : ![image](https://user-images.githubusercontent.com/72154374/215022589-351368c2-f2ca-48cf-8bca-439699fe0645.png)
+
+Expected output : ![image](https://user-images.githubusercontent.com/72154374/215033643-0fccef6a-22b2-4c74-bad5-58d80cf94a70.png)
