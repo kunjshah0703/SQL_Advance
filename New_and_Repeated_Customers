@@ -6,3 +6,45 @@
 -- 2022-02-01, 2, 1
 -- 2022-01-03, 1, 2
 
+-- Step 1 :  We will get all customer's id first visit on the website
+
+WITH first_visit
+AS
+(
+SELECT customer_id, MIN(order_date) AS first_visit_date
+FROM customer_orders
+GROUP BY customer_id
+)
+
+-- Step 2 we will join initial table with new cte
+
+WITH first_visit
+AS
+(
+SELECT customer_id, MIN(order_date) AS first_visit_date
+FROM customer_orders
+GROUP BY customer_id
+)
+SELECT co.*, fv.first_visit_date
+FROM customer_orders AS co
+INNER JOIN first_visit AS fv
+ON co.customer_id = fv.customer_id;
+
+-- Step 3 we will check if first visit data is same as of order date if it is then we will count as new visit or else repeated visit.
+-- This will be the final query.
+
+WITH first_visit
+AS
+(
+SELECT customer_id, MIN(order_date) AS first_visit_date
+FROM customer_orders
+GROUP BY customer_id
+)
+SELECT co.order_date
+, SUM(CASE WHEN co.order_date = fv.first_visit_date THEN 1 ELSE 0 END) AS first_visit_flag
+, SUM(CASE WHEN co.order_date != fv.first_visit_date THEN 1 ELSE 0 END) AS repeat_visit_flag
+FROM customer_orders AS co
+INNER JOIN first_visit AS fv
+ON co.customer_id = fv.customer_id
+GROUP BY co.order_date
+ORDER BY co.order_date;
