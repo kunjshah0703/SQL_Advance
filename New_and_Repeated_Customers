@@ -1,0 +1,8 @@
+-- Suppose we are having a ecommerce website and we need to calculate number of new customers purchasing items from website on a daily basis.
+
+-- Expected Output :
+-- Order Date, new_customer_count, repeated_customer_count
+-- 2022-01-01, 3, 0
+-- 2022-02-01, 2, 1
+-- 2022-01-03, 1, 2
+
