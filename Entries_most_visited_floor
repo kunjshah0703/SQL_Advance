@@ -36,3 +36,87 @@ GROUP BY name;
 
 -- STep 5 : Combining both the queries.
 
+WITH total_visits
+AS
+(
+SELECT name, COUNT(1) AS total_visits, STRING_AGG(resources , ',') AS resources_used
+FROM entries
+GROUP BY name
+),
+floor_visit 
+AS
+(
+SELECT name, floor, COUNT(1) AS no_of_times_floor_visit
+, RANK() OVER(PARTITION BY name ORDER BY COUNT(1) DESC) AS rn
+FROM entries
+GROUP BY name, floor
+)
+SELECT fv.name, fv.floor AS most_visited_floor, tv.total_visits, tv.resources_used
+FROM floor_visit AS fv
+INNER JOIN total_visits AS tv
+ON fv.name = tv.name
+WHERE rn = 1
+ORDER BY name;
+
+-- Step 6 : We want distinct resorces so adding DISTINCT keyword. In SQL server it will not work but for POSTGRE it will work.
+
+WITH total_visits
+AS
+(
+SELECT name, COUNT(1) AS total_visits, STRING_AGG(DISTINCT resources , ',') AS resources_used
+FROM entries
+GROUP BY name
+),
+floor_visit 
+AS
+(
+SELECT name, floor, COUNT(1) AS no_of_times_floor_visit
+, RANK() OVER(PARTITION BY name ORDER BY COUNT(1) DESC) AS rn
+FROM entries
+GROUP BY name, floor
+)
+SELECT fv.name, fv.floor AS most_visited_floor, tv.total_visits, tv.resources_used
+FROM floor_visit AS fv
+INNER JOIN total_visits AS tv
+ON fv.name = tv.name
+WHERE rn = 1
+ORDER BY name;
+
+-- ALETRNATE for this : 
+
+WITH distinct_resources
+AS
+(
+SELECT DISTINCT name, resources
+FROM entries
+),
+agg_resources
+AS
+(
+SELECT name, STRING_AGG(resources, ',') AS used_resources
+FROM distinct_resources
+GROUP BY name
+),
+total_visits
+AS
+(
+SELECT name, COUNT(1) AS total_visits, STRING_AGG(DISTINCT resources , ',') AS resources_used
+FROM entries
+GROUP BY name
+),
+floor_visit 
+AS
+(
+SELECT name, floor, COUNT(1) AS no_of_times_floor_visit
+, RANK() OVER(PARTITION BY name ORDER BY COUNT(1) DESC) AS rn
+FROM entries
+GROUP BY name, floor
+)
+SELECT fv.name, fv.floor AS most_visited_floor, tv.total_visits, ar.used_resources
+FROM floor_visit AS fv
+INNER JOIN total_visits AS tv
+ON fv.name = tv.name
+INNER JOIN agg_resources AS ar
+ON fv.name = ar.name
+WHERE rn = 1
+ORDER BY name;
