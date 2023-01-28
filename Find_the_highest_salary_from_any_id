@@ -1,0 +1,49 @@
+-- Q. We need to find the salary of all employees where their salary is greater than salary of 2nd person.
+
+-- Step 1 : We will create Employee and salary table.
+
+CREATE TABLE Employee
+(
+emp_id int,
+emp_name varchar(50)
+);
+
+CREATE TABLE Salary
+(
+emp_id int,
+emp_salary int
+);
+
+-- Step 2 : We will insert values in both tables
+
+INSERT INTO Employee VALUES
+(1, 'Kunj'),
+(2, 'Vikrant'),
+(3, 'Aditya'),
+(4, 'Ravi'),
+(5, 'Rahul'),
+(6, 'Vikas');
+
+INSERT INTO Salary VALUES
+(1, 27000),
+(2, 25000),
+(3, 20000),
+(4, 24000),
+(5, 30000),
+(6, 25500);
+
+-- Step 3 : 
+-- We need to use subquery as well as CTE in this
+
+WITH high_salary
+AS
+(
+SELECT *
+FROM Employee AS e
+INNER JOIN Salary As s
+ON e.emp_id = s.emp_id
+)
+SELECT emp_name, emp_salary
+FROM high_salary
+WHERE emp_salary > (SELECT emp_salary
+                    FROM Salary WHERE emp_id = 2);
