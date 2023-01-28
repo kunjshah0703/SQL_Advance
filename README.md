@@ -11,3 +11,7 @@ Question 2 : Find new and repeated customers.
 Given input table : ![image](https://user-images.githubusercontent.com/72154374/215022589-351368c2-f2ca-48cf-8bca-439699fe0645.png)
 
 Expected output : ![image](https://user-images.githubusercontent.com/72154374/215033643-0fccef6a-22b2-4c74-bad5-58d80cf94a70.png)
+
+Question 3 : Find the entries of the person in a company and most visited floor.
+
+Given Input Table : ![image](https://user-images.githubusercontent.com/72154374/215239896-fa80f54c-e8c9-4aa7-a028-b84d34a9cd21.png)
