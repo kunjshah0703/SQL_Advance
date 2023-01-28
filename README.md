@@ -15,3 +15,5 @@ Expected output : ![image](https://user-images.githubusercontent.com/72154374/21
 Question 3 : Find the entries of the person in a company and most visited floor.
 
 Given Input Table : ![image](https://user-images.githubusercontent.com/72154374/215239896-fa80f54c-e8c9-4aa7-a028-b84d34a9cd21.png)
+
+Expected output : ![image](https://user-images.githubusercontent.com/72154374/215241758-7fcde8cc-2467-42d7-a58a-e0cc06c2c99c.png)
