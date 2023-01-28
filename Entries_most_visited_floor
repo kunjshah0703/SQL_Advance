@@ -1,0 +1,38 @@
+-- Q. In a company there is only 1 entry allowed in a day. If a person gives different email id he/she can enter again. So, we need o find how many times
+person visited the company, most visited floor and what resources he/she used ?
+
+-- STep 1 : We will check which person visited which floor how many times.
+
+SELECT name, floor, COUNT(1) AS no_of_times_floor_visit
+FROM entries
+GROUP BY name, floor;
+
+-- Step 2 : Adding rank function to the floor visit
+
+SELECT name, floor, COUNT(1) AS no_of_times_floor_visit
+, RANK() OVER(PARTITION BY name ORDER BY COUNT(1) DESC) AS rn
+FROM entries
+GROUP BY name, floor;
+
+-- STep 3 : Putting above Query in CTE to get most visited floor
+
+WITH floor_visit 
+AS
+(
+SELECT name, floor, COUNT(1) AS no_of_times_floor_visit
+, RANK() OVER(PARTITION BY name ORDER BY COUNT(1) DESC) AS rn
+FROM entries
+GROUP BY name, floor
+)
+SELECT fv.name, fv.floor
+FROM floor_visit AS fv
+WHERE rn = 1;
+
+-- Step 4 : Find the total number of visits by each person and resources used by them
+
+SELECT name, COUNT(1) AS total_visits, STRING_AGG(resources , ',') AS resources_used
+FROM entries
+GROUP BY name;
+
+-- STep 5 : Combining both the queries.
+
