@@ -17,3 +17,9 @@ Question 3 : Find the entries of the person in a company and most visited floor.
 Given Input Table : ![image](https://user-images.githubusercontent.com/72154374/215239896-fa80f54c-e8c9-4aa7-a028-b84d34a9cd21.png)
 
 Expected output : ![image](https://user-images.githubusercontent.com/72154374/215241758-7fcde8cc-2467-42d7-a58a-e0cc06c2c99c.png)
+
+Question 4 : This question was asked in Oracle Interview
+
+Given Input Table : ![image](https://user-images.githubusercontent.com/72154374/215242155-44ac3283-663b-4fd5-bce1-54e5033dcb45.png)
+
+Fiven Output Table : ![image](https://user-images.githubusercontent.com/72154374/215242170-2517caf7-b3f5-41a1-bfde-5ef743e7cce1.png)
