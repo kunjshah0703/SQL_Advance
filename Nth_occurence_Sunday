@@ -1,0 +1,8 @@
+Q. Write a Query to provide date for nth occurence of sunday in future from given date.
+
+declare @today_date date;
+declare @n int;
+set @today_date = '2023-01-01';
+set @n = 3;
+
+SELECT DATEADD(week, @n-1, DATEADD(day, 8 - DATEPART(weekday, @today_date), @today_date));
