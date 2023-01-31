@@ -23,3 +23,5 @@ Question 4 : This question was asked in Oracle Interview
 Given Input Table : ![image](https://user-images.githubusercontent.com/72154374/215242155-44ac3283-663b-4fd5-bce1-54e5033dcb45.png)
 
 Given Output Table : ![image](https://user-images.githubusercontent.com/72154374/215242170-2517caf7-b3f5-41a1-bfde-5ef743e7cce1.png)
+
+Question 5 : Find the nth occurence of the sunday from the current date.
