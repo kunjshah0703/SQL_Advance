@@ -30,4 +30,5 @@ Question 6 : Friend_Score
 
 Given Input Tables : ![image](https://user-images.githubusercontent.com/72154374/219876383-64106e66-e42e-492d-9a45-3a8e5aa002b7.png)
 
-Given Output Table : 
+Given Output Table : ![image](https://user-images.githubusercontent.com/72154374/219876981-9d074ab4-2aaf-4b51-8a50-e5125fe4b646.png)
+
