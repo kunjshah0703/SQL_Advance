@@ -25,3 +25,9 @@ Given Input Table : ![image](https://user-images.githubusercontent.com/72154374/
 Given Output Table : ![image](https://user-images.githubusercontent.com/72154374/215242170-2517caf7-b3f5-41a1-bfde-5ef743e7cce1.png)
 
 Question 5 : Find the nth occurence of the sunday from the current date.
+
+Question 6 : Friend_Score
+
+Given Input Tables : ![image](https://user-images.githubusercontent.com/72154374/219876383-64106e66-e42e-492d-9a45-3a8e5aa002b7.png)
+
+Given Output Table : 
