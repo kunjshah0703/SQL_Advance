@@ -32,3 +32,12 @@ Given Input Tables : ![image](https://user-images.githubusercontent.com/72154374
 
 Given Output Table : ![image](https://user-images.githubusercontent.com/72154374/219876981-9d074ab4-2aaf-4b51-8a50-e5125fe4b646.png)
 
+Question 7 : Trips and users
+
+Given Input Table : ![image](https://user-images.githubusercontent.com/72154374/219941588-3d35f825-fd59-413a-b045-0c59f1cda90a.png)
+
+Given Input Table : ![image](https://user-images.githubusercontent.com/72154374/219941612-0debf97a-5071-407e-a11a-caebb4af432d.png)
+
+Expected output : ![image](https://user-images.githubusercontent.com/72154374/219941643-a31ccdc2-b0c7-4ddc-9ee5-d2bea1de09c4.png)
+
+
