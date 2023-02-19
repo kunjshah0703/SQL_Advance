@@ -40,4 +40,8 @@ Given Input Table : ![image](https://user-images.githubusercontent.com/72154374/
 
 Expected output : ![image](https://user-images.githubusercontent.com/72154374/219941643-a31ccdc2-b0c7-4ddc-9ee5-d2bea1de09c4.png)
 
+Questionn 8 : Players in tournament and winners
 
+Given Input Tables : ![image](https://user-images.githubusercontent.com/72154374/219943071-b7b41387-5bbc-4d3b-b1a6-8d5a7113e2dc.png)
+
+Expected Output : ![image](https://user-images.githubusercontent.com/72154374/219943118-17f49e4b-57b5-4004-93f8-38464fc200d6.png)
