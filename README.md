@@ -51,3 +51,9 @@ Question 9 : Market Analysis
 Given Input Tables : ![image](https://user-images.githubusercontent.com/72154374/220127812-72466151-27b8-4546-9b09-d61068534feb.png)
 
 Expected Output : ![image](https://user-images.githubusercontent.com/72154374/220127935-5af09c09-2ec7-4461-bc17-447cdd950f9f.png)
+
+Question 10 : Continuous Date Logic
+
+Given Input Table : ![image](https://user-images.githubusercontent.com/72154374/220842435-2d9594e5-6f79-45e7-bcff-7ee8a53e40db.png)
+
+Expected Output : ![image](https://user-images.githubusercontent.com/72154374/220842520-5e2d5067-fcab-45d3-84d3-b650ba286f77.png)
