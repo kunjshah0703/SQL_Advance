@@ -57,3 +57,9 @@ Question 10 : Continuous Date Logic
 Given Input Table : ![image](https://user-images.githubusercontent.com/72154374/220842435-2d9594e5-6f79-45e7-bcff-7ee8a53e40db.png)
 
 Expected Output : ![image](https://user-images.githubusercontent.com/72154374/220842520-5e2d5067-fcab-45d3-84d3-b650ba286f77.png)
+
+Question 11 : User Purchase Platform
+
+Given Input Table : ![image](https://user-images.githubusercontent.com/72154374/220849842-8dca69e0-63cb-491f-976b-1f42803df0b5.png)
+
+Expoected Output : ![image](https://user-images.githubusercontent.com/72154374/220849927-516a8470-f12c-4dbe-ad45-fa8e9bf256d0.png)
