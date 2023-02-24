@@ -63,3 +63,9 @@ Question 11 : User Purchase Platform
 Given Input Table : ![image](https://user-images.githubusercontent.com/72154374/220849842-8dca69e0-63cb-491f-976b-1f42803df0b5.png)
 
 Expected Output : ![image](https://user-images.githubusercontent.com/72154374/220849927-516a8470-f12c-4dbe-ad45-fa8e9bf256d0.png)
+
+Question 12 : TradeStockAnalysis
+
+Given Input Table : ![image](https://user-images.githubusercontent.com/72154374/221190973-b618d61c-25fb-4636-96d4-6275fb9a4b80.png)
+
+Expected Output : ![image](https://user-images.githubusercontent.com/72154374/221191224-d29f03e5-f5e1-4aee-996f-bdb952866b8c.png)
