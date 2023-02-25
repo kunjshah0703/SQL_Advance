@@ -69,3 +69,9 @@ Question 12 : TradeStockAnalysis
 Given Input Table : ![image](https://user-images.githubusercontent.com/72154374/221190973-b618d61c-25fb-4636-96d4-6275fb9a4b80.png)
 
 Expected Output : ![image](https://user-images.githubusercontent.com/72154374/221191224-d29f03e5-f5e1-4aee-996f-bdb952866b8c.png)
+
+Question 13 : Market_Campaign_Success
+
+Given Input Table : ![image](https://user-images.githubusercontent.com/72154374/221356535-73b54697-f80d-49d8-aacf-5dac8e052658.png)
+
+Expected Output : ![image](https://user-images.githubusercontent.com/72154374/221356557-f2c00420-fb5e-4397-8360-e8e70721e89f.png)
