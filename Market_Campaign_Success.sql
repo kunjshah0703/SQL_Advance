@@ -122,9 +122,10 @@ The marketing campaign doesn't start until one day after the initial in-app purc
 only made one or multiple purchases on the first day do not count, nor do we count users that
 over time purchase only the products they purchased on the first day */
 
-SELECT * FROM marketing_campaign
+
 
 -- Step 1 : We will rank the purchases history (aka date)
+/*
 WITH r_data AS
 (
 SELECT *,
@@ -144,15 +145,43 @@ a.user_id, a.product_id, a.created_at, b.user_id, b.product_id, b.created_at,
 FROM except_first_app_purchase AS a
 LEFT JOIN first_app_purchase AS b
 ON a.user_id = b.user_id AND a.product_id = b.product_id
+*/
 
-
+-- Step 1 : We will give rank for each purchase date
 WITH rnk_data AS
 (
 SELECT *,
 RANK() OVER(PARTITION BY user_id ORDER BY created_at) AS rn
 FROM marketing_campaign
 -- WHERE user_id IN (11,14,25)
-), first_app_purchases AS
+)
+
+-- Step 2 : We will filter by rank like first_app_purchase and except_first_app_purchase
+WITH rnk_data AS
+(
+SELECT *,
+RANK() OVER(PARTITION BY user_id ORDER BY created_at) AS rn
+FROM marketing_campaign
+-- WHERE user_id IN (11,14,25)
+)
+, first_app_purchases AS
+(
+SELECT * 
+FROM rnk_data WHERE rn = 1
+), except_first_app_purchases AS
+(
+SELECT * FROM rnk_data WHERE rn > 1
+)
+
+-- Step 3 : We will Left Join tables on user_id and product_id
+WITH rnk_data AS
+(
+SELECT *,
+RANK() OVER(PARTITION BY user_id ORDER BY created_at) AS rn
+FROM marketing_campaign
+-- WHERE user_id IN (11,14,25)
+)
+, first_app_purchases AS
 (
 SELECT * 
 FROM rnk_data WHERE rn = 1
