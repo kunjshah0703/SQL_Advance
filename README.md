@@ -75,3 +75,9 @@ Question 13 : Market_Campaign_Success
 Given Input Table : ![image](https://user-images.githubusercontent.com/72154374/221356535-73b54697-f80d-49d8-aacf-5dac8e052658.png)
 
 Expected Output : ![image](https://user-images.githubusercontent.com/72154374/221356557-f2c00420-fb5e-4397-8360-e8e70721e89f.png)
+
+Question 14 : Total Sales By Year
+
+Given Input Table : ![image](https://user-images.githubusercontent.com/72154374/221780355-c1c21333-fcb5-4f5a-8f68-2b222c463bb9.png)
+
+Expected Output : ![image](https://user-images.githubusercontent.com/72154374/221780475-4cd4fd1a-ec16-4fb5-820b-fe2b61a990b6.png)
