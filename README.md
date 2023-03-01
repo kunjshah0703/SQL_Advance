@@ -81,3 +81,9 @@ Question 14 : Total Sales By Year
 Given Input Table : ![image](https://user-images.githubusercontent.com/72154374/221780355-c1c21333-fcb5-4f5a-8f68-2b222c463bb9.png)
 
 Expected Output : ![image](https://user-images.githubusercontent.com/72154374/221780475-4cd4fd1a-ec16-4fb5-820b-fe2b61a990b6.png)
+
+Question 15 : Recommendation based product system
+
+Given Input Tables : ![image](https://user-images.githubusercontent.com/72154374/222207554-6ff8c757-2129-4e5a-9094-5b5bb740bc08.png)
+
+Expected Output : ![image](https://user-images.githubusercontent.com/72154374/222207758-519e3e1e-9eb8-4603-af01-3be7fbdd558a.png)
