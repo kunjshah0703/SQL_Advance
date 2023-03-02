@@ -87,3 +87,10 @@ Question 15 : Recommendation based product system
 Given Input Tables : ![image](https://user-images.githubusercontent.com/72154374/222207554-6ff8c757-2129-4e5a-9094-5b5bb740bc08.png)
 
 Expected Output : ![image](https://user-images.githubusercontent.com/72154374/222207758-519e3e1e-9eb8-4603-af01-3be7fbdd558a.png)
+
+Question 16 : Prime subscription rate by product action.
+
+Given Input Tables : ![image](https://user-images.githubusercontent.com/72154374/222432445-27acd994-7279-4c90-9ab1-07a544887271.png)
+
+Expected Output : ![image](https://user-images.githubusercontent.com/72154374/222432791-0f433acd-9e15-41c2-bbda-052b1c0971fa.png)
+
