@@ -94,3 +94,9 @@ Given Input Tables : ![image](https://user-images.githubusercontent.com/72154374
 
 Expected Output : ![image](https://user-images.githubusercontent.com/72154374/222432791-0f433acd-9e15-41c2-bbda-052b1c0971fa.png)
 
+Question 17 : Customer Retention and churn analysis
+
+Given Input Table : ![image](https://user-images.githubusercontent.com/72154374/222954165-647f3a19-88d3-4782-9cb0-319c10b3d167.png)
+
+Expected Ouputs : ![image](https://user-images.githubusercontent.com/72154374/222954197-d1df53dd-054f-479d-8038-2b5b7c00420d.png)
+![image](https://user-images.githubusercontent.com/72154374/222954216-2582d3fb-18f4-4e14-bf5a-a3c4c83d2d55.png)
