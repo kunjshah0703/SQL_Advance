@@ -100,3 +100,9 @@ Given Input Table : ![image](https://user-images.githubusercontent.com/72154374/
 
 Expected Ouputs : ![image](https://user-images.githubusercontent.com/72154374/222954197-d1df53dd-054f-479d-8038-2b5b7c00420d.png)
 ![image](https://user-images.githubusercontent.com/72154374/222954216-2582d3fb-18f4-4e14-bf5a-a3c4c83d2d55.png)
+
+Question 18 : Second most recent activity
+
+Given Input Table : ![image](https://user-images.githubusercontent.com/72154374/222954891-dfa50ed4-2e66-4f64-a447-db5299389997.png)
+
+Expected Ouptut : ![image](https://user-images.githubusercontent.com/72154374/222955219-7e624056-5227-4d4d-833a-0e1bbf991f06.png)
