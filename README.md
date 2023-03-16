@@ -112,3 +112,9 @@ Question 19 : Find the missing Quarter
 Given input table : ![image](https://user-images.githubusercontent.com/72154374/225630495-a4387b46-1d37-4f68-b942-cd166f78f211.png)
 
 Expected Output : ![image](https://user-images.githubusercontent.com/72154374/225630724-cb94db9c-f269-4920-8266-704806bae235.png)
+
+Question 20 : Find the students who are having same marks in each subject.
+
+Input Table : ![image](https://user-images.githubusercontent.com/72154374/225634397-963e400a-23de-463e-9166-0ca5186c040b.png)
+
+Output : ![image](https://user-images.githubusercontent.com/72154374/225634536-c271ffb9-d836-410f-95a6-d651b74aa2ce.png)
