@@ -106,3 +106,9 @@ Question 18 : Second most recent activity
 Given Input Table : ![image](https://user-images.githubusercontent.com/72154374/222954891-dfa50ed4-2e66-4f64-a447-db5299389997.png)
 
 Expected Ouptut : ![image](https://user-images.githubusercontent.com/72154374/222955219-7e624056-5227-4d4d-833a-0e1bbf991f06.png)
+
+Question 19 : Find the missing Quarter
+
+Given input table : ![image](https://user-images.githubusercontent.com/72154374/225630495-a4387b46-1d37-4f68-b942-cd166f78f211.png)
+
+Expected Output : ![image](https://user-images.githubusercontent.com/72154374/225630724-cb94db9c-f269-4920-8266-704806bae235.png)
