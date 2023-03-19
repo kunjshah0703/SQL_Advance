@@ -118,3 +118,9 @@ Question 20 : Find the students who are having same marks in each subject.
 Input Table : ![image](https://user-images.githubusercontent.com/72154374/225634397-963e400a-23de-463e-9166-0ca5186c040b.png)
 
 Output : ![image](https://user-images.githubusercontent.com/72154374/225634536-c271ffb9-d836-410f-95a6-d651b74aa2ce.png)
+
+Question 21 : Find the cities where the covid cases are increasing continuously.
+
+Input Table : ![image](https://user-images.githubusercontent.com/72154374/226171511-fb0d5d2e-c80b-4f0a-8d5e-301c65102b26.png)
+
+Output : ![image](https://user-images.githubusercontent.com/72154374/226171541-598bcc24-91c8-4b87-9072-6d7e92072144.png)
