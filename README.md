@@ -124,3 +124,9 @@ Question 21 : Find the cities where the covid cases are increasing continuously.
 Input Table : ![image](https://user-images.githubusercontent.com/72154374/226171511-fb0d5d2e-c80b-4f0a-8d5e-301c65102b26.png)
 
 Output : ![image](https://user-images.githubusercontent.com/72154374/226171541-598bcc24-91c8-4b87-9072-6d7e92072144.png)
+
+Question 22 : Find companies who have atleast 2 users who speaks English and German both the languages
+
+Input : ![image](https://user-images.githubusercontent.com/72154374/226278480-9686a8d9-c175-48ac-9b07-5fcf8c075942.png)
+
+Output : ![image](https://user-images.githubusercontent.com/72154374/226278571-1caca4c1-8575-45f4-a73d-d4d6888ab18f.png)
