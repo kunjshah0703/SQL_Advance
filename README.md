@@ -130,3 +130,15 @@ Question 22 : Find companies who have atleast 2 users who speaks English and Ger
 Input : ![image](https://user-images.githubusercontent.com/72154374/226278480-9686a8d9-c175-48ac-9b07-5fcf8c075942.png)
 
 Output : ![image](https://user-images.githubusercontent.com/72154374/226278571-1caca4c1-8575-45f4-a73d-d4d6888ab18f.png)
+
+Question 23 : Meesho Customer Budget
+
+Input : ![image](https://user-images.githubusercontent.com/72154374/227521355-4abfa00f-3dd0-4ba0-b5b5-40849b01a048.png)
+
+Output : ![image](https://user-images.githubusercontent.com/72154374/227521492-3a1f0985-516d-422c-bfb8-7f9b4f727666.png)
+
+Question 24 : Number of messages exchange between persons each day
+
+Input : ![image](https://user-images.githubusercontent.com/72154374/227521669-aa6c9388-a06a-4cde-b551-0dbf4d619bf9.png)
+
+Output : ![image](https://user-images.githubusercontent.com/72154374/227521753-7787b90e-be90-43ba-ab19-9b83e30f6476.png)
