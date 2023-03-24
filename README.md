@@ -142,3 +142,8 @@ Question 24 : Number of messages exchange between persons each day
 Input : ![image](https://user-images.githubusercontent.com/72154374/227521669-aa6c9388-a06a-4cde-b551-0dbf4d619bf9.png)
 
 Output : ![image](https://user-images.githubusercontent.com/72154374/227521753-7787b90e-be90-43ba-ab19-9b83e30f6476.png)
+
+Question 25 : Students and their marks relation.
+
+Input : ![image](https://user-images.githubusercontent.com/72154374/227536964-dae533b9-3349-423c-b49b-0a7bbacafcc7.png)
+
