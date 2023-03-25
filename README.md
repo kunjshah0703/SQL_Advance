@@ -152,3 +152,9 @@ Question 26 : Highest order value by each salesperson.
 Input : ![image](https://user-images.githubusercontent.com/72154374/227716038-ae59694c-ad06-4312-9a75-767854387c1d.png)
 
 Output : ![image](https://user-images.githubusercontent.com/72154374/227716055-79b6c748-5e4e-4f3d-8fa7-172a12e718a3.png)
+
+Question 27 : Find Login and Logoff time of the system.
+
+Input : ![image](https://user-images.githubusercontent.com/72154374/227718418-9623c8dc-3b42-407c-9a27-cb452ef5e3a4.png)
+
+Output : ![image](https://user-images.githubusercontent.com/72154374/227718444-feb1fb0c-2b96-47a7-8410-320fcaa76d36.png)
