@@ -147,3 +147,8 @@ Question 25 : Students and their marks relation.
 
 Input : ![image](https://user-images.githubusercontent.com/72154374/227536964-dae533b9-3349-423c-b49b-0a7bbacafcc7.png)
 
+Question 26 : Highest order value by each salesperson.
+
+Input : ![image](https://user-images.githubusercontent.com/72154374/227716038-ae59694c-ad06-4312-9a75-767854387c1d.png)
+
+Output : ![image](https://user-images.githubusercontent.com/72154374/227716055-79b6c748-5e4e-4f3d-8fa7-172a12e718a3.png)
