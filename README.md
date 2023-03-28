@@ -164,3 +164,9 @@ Question 28 : Pivot players based on their location.
 Input : ![image](https://user-images.githubusercontent.com/72154374/228139202-a34a8606-39a9-43fe-9f16-43a593dc651f.png)
 
 Output : ![image](https://user-images.githubusercontent.com/72154374/228139101-5a6ab51e-1618-401b-99a4-f32d36adda15.png)
+
+Question 29 : Find the median salary of the company
+
+Input : ![image](https://user-images.githubusercontent.com/72154374/228167472-bf508b2e-1be3-42f7-814c-a41eebd03c19.png)
+
+Output : ![image](https://user-images.githubusercontent.com/72154374/228167728-232bbbf0-48e8-4a2b-b4a6-a3e558cdb8be.png)
