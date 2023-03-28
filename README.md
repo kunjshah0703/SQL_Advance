@@ -158,3 +158,9 @@ Question 27 : Find Login and Logoff time of the system.
 Input : ![image](https://user-images.githubusercontent.com/72154374/227718418-9623c8dc-3b42-407c-9a27-cb452ef5e3a4.png)
 
 Output : ![image](https://user-images.githubusercontent.com/72154374/227718444-feb1fb0c-2b96-47a7-8410-320fcaa76d36.png)
+
+Question 28 : Pivot players based on their location.
+
+Input : ![image](https://user-images.githubusercontent.com/72154374/228139202-a34a8606-39a9-43fe-9f16-43a593dc651f.png)
+
+Output : ![image](https://user-images.githubusercontent.com/72154374/228139101-5a6ab51e-1618-401b-99a4-f32d36adda15.png)
