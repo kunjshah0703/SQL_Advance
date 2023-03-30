@@ -170,3 +170,9 @@ Question 29 : Find the median salary of the company
 Input : ![image](https://user-images.githubusercontent.com/72154374/228167472-bf508b2e-1be3-42f7-814c-a41eebd03c19.png)
 
 Output : ![image](https://user-images.githubusercontent.com/72154374/228167728-232bbbf0-48e8-4a2b-b4a6-a3e558cdb8be.png)
+
+Question 30 : Find out how many shares were sell out of bought.
+
+Input : ![image](https://user-images.githubusercontent.com/72154374/228770579-a7026511-e0b6-47d7-ab74-e7106914d5b5.png)
+
+Output : ![image](https://user-images.githubusercontent.com/72154374/228770440-2eee03e6-3075-474f-9241-803cb592c81f.png)
