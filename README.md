@@ -176,3 +176,9 @@ Question 30 : Find out how many shares were sell out of bought.
 Input : ![image](https://user-images.githubusercontent.com/72154374/228770579-a7026511-e0b6-47d7-ab74-e7106914d5b5.png)
 
 Output : ![image](https://user-images.githubusercontent.com/72154374/228770440-2eee03e6-3075-474f-9241-803cb592c81f.png)
+
+Question 31 : Find 3rd highest salary of employee by each department.
+
+Input : ![image](https://user-images.githubusercontent.com/72154374/229030132-005f0cfc-205c-4bc5-a738-2d20d40c26b0.png)
+
+Output : ![image](https://user-images.githubusercontent.com/72154374/229030036-6ac8071a-a690-4949-aba4-a7fb8b63688f.png)
