@@ -182,3 +182,9 @@ Question 31 : Find 3rd highest salary of employee by each department.
 Input : ![image](https://user-images.githubusercontent.com/72154374/229030132-005f0cfc-205c-4bc5-a738-2d20d40c26b0.png)
 
 Output : ![image](https://user-images.githubusercontent.com/72154374/229030036-6ac8071a-a690-4949-aba4-a7fb8b63688f.png)
+
+Question 32 : Human Traffic in stadium.
+
+Input : ![image](https://user-images.githubusercontent.com/72154374/229270431-0c494dfe-44cf-42f9-88e6-e69f3683cccc.png)
+
+Output : ![image](https://user-images.githubusercontent.com/72154374/229270454-8b39737b-9feb-46f9-9e2d-40c0307e253a.png)
