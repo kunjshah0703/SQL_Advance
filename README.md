@@ -188,3 +188,9 @@ Question 32 : Human Traffic in stadium.
 Input : ![image](https://user-images.githubusercontent.com/72154374/229270431-0c494dfe-44cf-42f9-88e6-e69f3683cccc.png)
 
 Output : ![image](https://user-images.githubusercontent.com/72154374/229270454-8b39737b-9feb-46f9-9e2d-40c0307e253a.png)
+
+Question 33 : Number of new business operations in a city in new year.
+
+Input : ![image](https://user-images.githubusercontent.com/72154374/229336277-b585a438-3ff2-4233-93fc-c6857b740547.png)
+
+Output : ![image](https://user-images.githubusercontent.com/72154374/229336290-4544117c-590f-4d6f-9237-ffff6ba03c49.png)
