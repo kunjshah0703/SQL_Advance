@@ -194,3 +194,9 @@ Question 33 : Number of new business operations in a city in new year.
 Input : ![image](https://user-images.githubusercontent.com/72154374/229336277-b585a438-3ff2-4233-93fc-c6857b740547.png)
 
 Output : ![image](https://user-images.githubusercontent.com/72154374/229336290-4544117c-590f-4d6f-9237-ffff6ba03c49.png)
+
+Question 34 : Find 4 consecutive empty seats in a row in a movie hall.
+
+Input : ![image](https://user-images.githubusercontent.com/72154374/229343106-5ed90744-0838-4f2e-91ab-9576f6284137.png)
+
+Output : ![image](https://user-images.githubusercontent.com/72154374/229343143-c613f781-a295-4923-94eb-70d5d0c19fe6.png)
