@@ -200,3 +200,9 @@ Question 34 : Find 4 consecutive empty seats in a row in a movie hall.
 Input : ![image](https://user-images.githubusercontent.com/72154374/229343106-5ed90744-0838-4f2e-91ab-9576f6284137.png)
 
 Output : ![image](https://user-images.githubusercontent.com/72154374/229343143-c613f781-a295-4923-94eb-70d5d0c19fe6.png)
+
+Question 35 : Find those call numbers who are having both inc and out and duration of out id greater than duration of inc.
+
+Input : ![image](https://user-images.githubusercontent.com/72154374/229486315-7218b388-b58a-4d71-927f-6ee2ab1d88b2.png)
+
+Output : ![image](https://user-images.githubusercontent.com/72154374/229486418-82b6bcda-8fdf-45e8-b15a-0cabcdfa8223.png)
