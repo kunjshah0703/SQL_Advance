@@ -206,3 +206,9 @@ Question 35 : Find those call numbers who are having both inc and out and durati
 Input : ![image](https://user-images.githubusercontent.com/72154374/229486315-7218b388-b58a-4d71-927f-6ee2ab1d88b2.png)
 
 Output : ![image](https://user-images.githubusercontent.com/72154374/229486418-82b6bcda-8fdf-45e8-b15a-0cabcdfa8223.png)
+
+Question 36 : Find matches/innings where Sachin scored milestome runs.
+
+Input : ![image](https://user-images.githubusercontent.com/72154374/229493546-2adf6f32-b3d9-45f9-8369-34598728e030.png)
+
+Output : ![image](https://user-images.githubusercontent.com/72154374/229493792-4e134ee0-1ee0-489b-a698-a55d4f21cc26.png)
