@@ -218,3 +218,9 @@ Question 37 : Populate missing brand values for the items.
 Input : ![image](https://user-images.githubusercontent.com/72154374/229764640-01be497d-43f6-4592-9ac4-b9dc0d3c24ff.png)
 
 Output : ![image](https://user-images.githubusercontent.com/72154374/229764876-524e614b-7f16-4f05-8898-0e939c956dc1.png)
+
+Question 38 : Find quite students in exam.
+
+Input : ![image](https://user-images.githubusercontent.com/72154374/229775253-b5f5744f-8f68-4872-b433-818e3d42dc75.png)
+
+Output : ![image](https://user-images.githubusercontent.com/72154374/229775388-e8ecc6bc-33d9-42a3-aa19-b64cf8ccbd37.png)
