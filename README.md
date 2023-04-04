@@ -212,3 +212,9 @@ Question 36 : Find matches/innings where Sachin scored milestome runs.
 Input : ![image](https://user-images.githubusercontent.com/72154374/229493546-2adf6f32-b3d9-45f9-8369-34598728e030.png)
 
 Output : ![image](https://user-images.githubusercontent.com/72154374/229493792-4e134ee0-1ee0-489b-a698-a55d4f21cc26.png)
+
+Question 37 : Populate missing brand values for the items.
+
+Input : ![image](https://user-images.githubusercontent.com/72154374/229764640-01be497d-43f6-4592-9ac4-b9dc0d3c24ff.png)
+
+Output : ![image](https://user-images.githubusercontent.com/72154374/229764876-524e614b-7f16-4f05-8898-0e939c956dc1.png)
