@@ -224,3 +224,9 @@ Question 38 : Find quite students in exam.
 Input : ![image](https://user-images.githubusercontent.com/72154374/229775253-b5f5744f-8f68-4872-b433-818e3d42dc75.png)
 
 Output : ![image](https://user-images.githubusercontent.com/72154374/229775388-e8ecc6bc-33d9-42a3-aa19-b64cf8ccbd37.png)
+
+Question 39 : Find call made to the same recipient in a day first and last call.
+
+Input : ![image](https://user-images.githubusercontent.com/72154374/230436553-fff77272-982f-4a33-885b-663ae27e40a5.png)
+
+Output : ![image](https://user-images.githubusercontent.com/72154374/230436653-04be3804-f21e-4965-a019-af905e90c8e7.png)
