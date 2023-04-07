@@ -230,3 +230,9 @@ Question 39 : Find call made to the same recipient in a day first and last call.
 Input : ![image](https://user-images.githubusercontent.com/72154374/230436553-fff77272-982f-4a33-885b-663ae27e40a5.png)
 
 Output : ![image](https://user-images.githubusercontent.com/72154374/230436653-04be3804-f21e-4965-a019-af905e90c8e7.png)
+
+Question 40 : Hire seniors and juniors based on company's given budget
+
+Input : ![image](https://user-images.githubusercontent.com/72154374/230581502-7f40ab77-1617-4a20-9d3f-d4f876fb826e.png)
+
+Output : ![image](https://user-images.githubusercontent.com/72154374/230581386-8b7aec3b-5ad1-4a59-a58c-a934f0c193d6.png)
