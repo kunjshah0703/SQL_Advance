@@ -11,7 +11,7 @@ INSERT INTO candidates VALUES
 (3, 'Junior', 40000),
 (4, 'Senior', 16000),
 (5, 'Senior', 20000),
-(1, 'Senior', 50000);
+(6, 'Senior', 50000);
 
 /* A company wants to hire new employees. The budget of the company for the salaries is $70000. */
 /* The company's criteria for hiring are: keep hiring the senior with the smalled salary until you cannot hire
