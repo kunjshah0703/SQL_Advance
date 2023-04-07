@@ -236,3 +236,9 @@ Question 40 : Hire seniors and juniors based on company's given budget
 Input : ![image](https://user-images.githubusercontent.com/72154374/230581502-7f40ab77-1617-4a20-9d3f-d4f876fb826e.png)
 
 Output : ![image](https://user-images.githubusercontent.com/72154374/230581386-8b7aec3b-5ad1-4a59-a58c-a934f0c193d6.png)
+
+Question 41 : Find employee's manager and senior manager.
+
+Input : ![image](https://user-images.githubusercontent.com/72154374/230586050-ed257dfa-3b58-476e-a739-e81e7cf887a8.png)
+
+Output : ![image](https://user-images.githubusercontent.com/72154374/230585974-b84a6713-74f0-4fec-9e54-c8a2ef48403d.png)
