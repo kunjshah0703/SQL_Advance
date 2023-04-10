@@ -242,3 +242,7 @@ Question 41 : Find employee's manager and senior manager.
 Input : ![image](https://user-images.githubusercontent.com/72154374/230586050-ed257dfa-3b58-476e-a739-e81e7cf887a8.png)
 
 Output : ![image](https://user-images.githubusercontent.com/72154374/230585974-b84a6713-74f0-4fec-9e54-c8a2ef48403d.png)
+
+Question 42 : Find last insert or deleted record in a database on a given day.
+
+Output : ![image](https://user-images.githubusercontent.com/72154374/230888430-f57760ed-d7ad-4ce7-b8c4-92c319823d6e.png)\
