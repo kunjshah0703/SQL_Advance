@@ -246,3 +246,9 @@ Output : ![image](https://user-images.githubusercontent.com/72154374/230585974-b
 Question 42 : Find last insert or deleted record in a database on a given day.
 
 Output : ![image](https://user-images.githubusercontent.com/72154374/230888430-f57760ed-d7ad-4ce7-b8c4-92c319823d6e.png)\
+
+Question 43 : Find total rides and profitable ride of the uber driver
+
+Input : ![image](https://user-images.githubusercontent.com/72154374/231111293-758c22c6-bb83-4918-862a-4e968bab6d8d.png)
+
+Output : ![image](https://user-images.githubusercontent.com/72154374/231111453-1c6849bb-6116-4e12-952a-de9bdcd7ffb4.png)
