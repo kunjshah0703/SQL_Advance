@@ -252,3 +252,9 @@ Question 43 : Find total rides and profitable ride of the uber driver
 Input : ![image](https://user-images.githubusercontent.com/72154374/231111293-758c22c6-bb83-4918-862a-4e968bab6d8d.png)
 
 Output : ![image](https://user-images.githubusercontent.com/72154374/231111453-1c6849bb-6116-4e12-952a-de9bdcd7ffb4.png)
+
+Question 44 : Find those userid who purchased different products on different days.
+
+Input : ![image](https://user-images.githubusercontent.com/72154374/231408749-28ff3e7e-e56f-472b-ab6b-bf889c6f4b39.png)
+
+Output : ![image](https://user-images.githubusercontent.com/72154374/231408900-7e9c304c-e11c-4c45-a6e0-861344d40687.png)
