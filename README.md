@@ -258,3 +258,5 @@ Question 44 : Find those userid who purchased different products on different da
 Input : ![image](https://user-images.githubusercontent.com/72154374/231408749-28ff3e7e-e56f-472b-ab6b-bf889c6f4b39.png)
 
 Output : ![image](https://user-images.githubusercontent.com/72154374/231408900-7e9c304c-e11c-4c45-a6e0-861344d40687.png)
+
+Question 45 : Make my Trip Case study'
