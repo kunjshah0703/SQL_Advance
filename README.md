@@ -260,3 +260,9 @@ Input : ![image](https://user-images.githubusercontent.com/72154374/231408749-28
 Output : ![image](https://user-images.githubusercontent.com/72154374/231408900-7e9c304c-e11c-4c45-a6e0-861344d40687.png)
 
 Question 45 : Make my Trip Case study'
+
+Question 46 : Merge overlapping events happening in a hall.
+
+Input : ![image](https://user-images.githubusercontent.com/72154374/232022146-a24cfc65-3dbf-4fdf-af1e-e0fac23fe16c.png)
+
+Output : ![image](https://user-images.githubusercontent.com/72154374/232022231-48a88345-14e0-4881-b3bc-5ae55543e010.png)
